@@ -1,0 +1,56 @@
+.header {
+  height: 70px;
+}
+
+.header-logo-img {
+  height: 100%;
+  width: 100%;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body {
+  background-color: #ffffff;
+  background-image: url("../assets/bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background by SVGBackgrounds.com */
+}
+
+.entreprise-titre {
+  font-family: 'Crimson Text', serif;
+  color: #E67235;
+  text-align: center;
+}
+
+.entreprise-description span {
+  color: #35A1D4;
+}
+
+.gdtitre_gauche {
+  font-family: 'Crimson Text', serif;
+  color: #E67235;
+  font-size: 1.5rem;
+  -webkit-box-shadow: 5px 5px 12px 0px #656565;
+  -o-box-shadow: 5px 5px 12px 0px #656565;
+  box-shadow: 3px 7px 7px 0px #6565658a;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=12);
+  border-radius: 10px;
+}
+
+.minititre {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  text-transform: capitalize;
+  color: #35A1D4;
+}
+/*# sourceMappingURL=styles.css.map */
