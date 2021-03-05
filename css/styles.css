@@ -70,7 +70,6 @@ body {
 
 .owl-arrow {
   position: absolute;
-  top: 50%;
   color: #35a1d4;
 }
 
@@ -80,5 +79,12 @@ body {
 
 .owl-arrow-right {
   right: 15px;
+}
+
+.etape-caroussel-miniature {
+  float: right;
+  max-width: 100px;
+  padding-left: 5px;
+  padding-bottom: 5px;
 }
 /*# sourceMappingURL=styles.css.map */
