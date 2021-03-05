@@ -53,4 +53,18 @@ body {
   text-transform: capitalize;
   color: #35A1D4;
 }
+
+.owl-titre {
+  padding-left: 15px;
+  font-family: 'Crimson Text', serif;
+  text-transform: capitalize;
+  color: #35A1D4;
+}
+
+.owl-comment {
+  padding-left: 30px;
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  color: #35A1D4;
+}
 /*# sourceMappingURL=styles.css.map */
