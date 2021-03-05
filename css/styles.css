@@ -28,17 +28,17 @@ body {
 
 .entreprise-titre {
   font-family: 'Crimson Text', serif;
-  color: #E67235;
+  color: #e67235;
   text-align: center;
 }
 
 .entreprise-description span {
-  color: #35A1D4;
+  color: #35a1d4;
 }
 
 .gdtitre_gauche {
   font-family: 'Crimson Text', serif;
-  color: #E67235;
+  color: #e67235;
   font-size: 1.5rem;
   -webkit-box-shadow: 5px 5px 12px 0px #656565;
   -o-box-shadow: 5px 5px 12px 0px #656565;
@@ -51,20 +51,34 @@ body {
   font-family: 'Crimson Text', serif;
   font-style: italic;
   text-transform: capitalize;
-  color: #35A1D4;
+  color: #35a1d4;
 }
 
 .owl-titre {
   padding-left: 15px;
   font-family: 'Crimson Text', serif;
   text-transform: capitalize;
-  color: #35A1D4;
+  color: #35a1d4;
 }
 
 .owl-comment {
   padding-left: 30px;
   font-family: 'Crimson Text', serif;
   font-style: italic;
-  color: #35A1D4;
+  color: #35a1d4;
+}
+
+.owl-arrow {
+  position: absolute;
+  top: 50%;
+  color: #35a1d4;
+}
+
+.owl-arrow-left {
+  left: 15px;
+}
+
+.owl-arrow-right {
+  right: 15px;
 }
 /*# sourceMappingURL=styles.css.map */

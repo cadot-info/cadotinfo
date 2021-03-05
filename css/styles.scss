@@ -1,70 +1,75 @@
-$C1:#35A1D4;
-$C2:#77BFE2;
-$C3:#D22D16;
-$C4:#E67235;
-$C5:#FCE786;
+$C1: #35a1d4;
+$C2: #77bfe2;
+$C3: #d22d16;
+$C4: #e67235;
+$C5: #fce786;
 
-.header{
-    height:70px;
-    &-logo-img{
-            height: 100%;
-            width: 100%;
-    }
-    &-menu{
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-    }
-
+.header {
+  height: 70px;
+  &-logo-img {
+    height: 100%;
+    width: 100%;
+  }
+  &-menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
-body{
-    background-color: #ffffff;
-    background-image: url("../assets/bg.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    /* background by SVGBackgrounds.com */
+body {
+  background-color: #ffffff;
+  background-image: url('../assets/bg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background by SVGBackgrounds.com */
 }
-.entreprise{
-    &-titre{
-         font-family: 'Crimson Text',
-         serif;
-         color:$C4; 
-         text-align: center;
-    }
-    &-description span{
-        color:$C1;
-    }
-}
-
-.gdtitre_gauche{
-    font-family: 'Crimson Text',
-    serif;
-    color:$C4;
-    font-size: 1.5rem;
-    -webkit-box-shadow: 5px 5px 12px 0px #656565;
-    -o-box-shadow: 5px 5px 12px 0px #656565;
-    box-shadow: 3px 7px 7px 0px #6565658a;
-    filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=12);
-    border-radius: 10px;
-}
-.minititre{
-    font-family: 'Crimson Text',
-    serif;
-    font-style: italic;
-    text-transform: capitalize;
+.entreprise {
+  &-titre {
+    font-family: 'Crimson Text', serif;
+    color: $C4;
+    text-align: center;
+  }
+  &-description span {
     color: $C1;
+  }
+}
+.gdtitre_gauche {
+  font-family: 'Crimson Text', serif;
+  color: $C4;
+  font-size: 1.5rem;
+  -webkit-box-shadow: 5px 5px 12px 0px #656565;
+  -o-box-shadow: 5px 5px 12px 0px #656565;
+  box-shadow: 3px 7px 7px 0px #6565658a;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=12);
+  border-radius: 10px;
+}
+.minititre {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  text-transform: capitalize;
+  color: $C1;
 }
 .owl-titre {
-    padding-left: 15px;
-    font-family: 'Crimson Text',
-        serif;
-    text-transform: capitalize;
-    color: $C1;
+  padding-left: 15px;
+  font-family: 'Crimson Text', serif;
+  text-transform: capitalize;
+  color: $C1;
 }
 .owl-comment {
-    padding-left: 30px;
-    font-family: 'Crimson Text',
-        serif;
-    font-style: italic;
-    color: $C1;
+  padding-left: 30px;
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  color: $C1;
+}
+
+.owl-arrow {
+  position: absolute;
+  top: 50%;
+  color: $C1;
+  &-left {
+    left: 15px;
+  }
+  &-right {
+    right: 15px;
+  }
 }

@@ -1,7 +1,16 @@
 $('.owl-carousel').owlCarousel({
     loop: true,
     items: 1,
-    autoPlay: 3000,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    nav: true,
+    navText: ['<div class="owl-arrow owl-arrow-left"><span class="fa-stack" style="vertical-align: top;"><i class="fas fa-circle fa-stack-2x"></i><i class="fas fa-chevron-left fa-stack-1x fa-inverse"></i></span></div>', '<div class="owl-arrow owl-arrow-right"><span class="fa-stack" style="vertical-align: top;"><i class="fas fa-circle fa-stack-2x"></i><i class="fas fa-chevron-right fa-stack-1x fa-inverse"></i></span></div>'],
+    autoplayHoverPause: true,
+    responsive: {
+        600: {
+            items: 4
+        }
+    },
     onInitialized: function () {
         aff_titre($('.owl-carousel').find('.active').find('img'));
     }
