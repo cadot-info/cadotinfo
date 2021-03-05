@@ -1,2 +1,6 @@
 gitinstall.sh
 /vendor/
+.vscode
+run.sh
+gc
+gitinstall.sh
