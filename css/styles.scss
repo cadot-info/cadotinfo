@@ -49,27 +49,37 @@ body {
   text-transform: capitalize;
   color: $C1;
 }
-.owl-titre {
-  padding-left: 15px;
-  font-family: 'Crimson Text', serif;
-  text-transform: capitalize;
-  color: $C1;
-}
-.owl-comment {
-  padding-left: 30px;
-  font-family: 'Crimson Text', serif;
-  font-style: italic;
-  color: $C1;
-}
-
-.owl-arrow {
-  position: absolute;
-  color: $C1;
-  &-left {
-    left: 15px;
+.owl {
+  &-titre {
+    padding-left: 15px;
+    font-family: 'Crimson Text', serif;
+    text-transform: capitalize;
+    color: $C1;
   }
-  &-right {
-    right: 15px;
+  &-comment {
+    padding-left: 30px;
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    color: $C1;
+  }
+  &-nav {
+    position: absolute;
+    top: -35px;
+    width: 100%;
+    margin-left: -15px;
+  }
+  &-next {
+    float: right;
+  }
+  &-arrow {
+    position: relative;
+
+    color: $C1;
+    &-left {
+    }
+    &-right {
+      width: 100%;
+    }
   }
 }
 .etape-caroussel-miniature {
@@ -77,4 +87,7 @@ body {
   max-width: 100px;
   padding-left: 5px;
   padding-bottom: 5px;
+}
+.footer {
+  background-color: $C2;
 }
