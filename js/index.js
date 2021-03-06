@@ -8,8 +8,8 @@ $('.owl-carousel').owlCarousel({
     navText: ['<div class="owl-arrow owl-arrow-left"><span class="fa-stack" style="vertical-align: top;"><i class="fas fa-circle fa-stack-2x"></i><i class="fas fa-chevron-left fa-stack-1x fa-inverse"></i></span></div>', '<div class="owl-arrow owl-arrow-right"><span class="fa-stack" style="vertical-align: top;"><i class="fas fa-circle fa-stack-2x"></i><i class="fas fa-chevron-right fa-stack-1x fa-inverse"></i></span></div>'],
     autoplayHoverPause: true,
     responsive: {
-        600: {
-            items: 4
+        300: {
+            items: 1
         }
     },
     onInitialized: function () {
