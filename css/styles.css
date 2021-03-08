@@ -93,5 +93,8 @@ body {
 
 .footer {
   background-color: #77bfe2;
+  background-image: url("../assets/bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=styles.css.map */
