@@ -93,3 +93,18 @@ $C5: #fce786;
   background-size: 100%;
   background-repeat: no-repeat;
 }
+.modal {
+  &-dialog {
+    max-width: 90%;
+  }
+  &-titre {
+    padding-left: 15px;
+    font-family: 'Crimson Text', serif;
+    text-transform: capitalize;
+    color: $C1;
+  }
+}
+
+#carte {
+  min-width: 100%;
+}

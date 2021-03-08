@@ -97,4 +97,19 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
+.modal-dialog {
+  max-width: 90%;
+}
+
+.modal-titre {
+  padding-left: 15px;
+  font-family: 'Crimson Text', serif;
+  text-transform: capitalize;
+  color: #35a1d4;
+}
+
+#carte {
+  min-width: 100%;
+}
 /*# sourceMappingURL=styles.css.map */
