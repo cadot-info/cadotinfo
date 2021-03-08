@@ -35,3 +35,7 @@ function aff_titre(div) {
     if (title) $(div).prev().find('.owl-titre').html(title)
     if (comment) $(div).prev().find('.owl-comment').html(comment);
 }
+//open modal
+$(window).on('load', function () {
+    $('#pub').modal('show');
+});
